@@ -1,0 +1,159 @@
+h1{
+    font-family: red serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align:right;
+    color:darkgoldenrod;
+    position: relative;
+    top:100px;
+    margin-right: 100px;
+}
+h6{
+    font-family:arial;
+    font-weight: bold;
+    font-size:20px;
+    color:darkgoldenrod;
+}
+h2{
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+}
+
+.flex-container {
+  background-color: grey;
+  height: 500px;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.navbar{
+    width:1200px;
+    height:75px;
+    margin: auto;
+}
+.icons{
+    width: 200px;
+    float: right;
+    height: 70px;
+}
+.logo{
+    color:gold;
+    font-size:35px;
+    font-family: Arial;
+    padding-right: 1px;
+    float: right;
+    padding-top: 7px;
+    font-family: red serif;
+    cursor:pointer;
+    letter-spacing: 1px;
+}
+span{
+    color:#f9004d;
+}
+.menu{
+    width: 400px;
+    float: 70px;
+    height: 70px;
+    margin-left:550px;
+}
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    transition:0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+span:hover{
+    color:black;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 400px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color:grey;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:hotpink ;
+}
+.card1{
+    height: 400px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color: charcoal;
+}
+.card1 i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:hotpink ;
+    }
+img{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+}
+img:hover{
+    zoom:110%;
+}
+h3{
+	font-size: 40px;
+	margin-left: 650px;
+	color: orange;
+}
+.button {
+  background-color:gold;
+  border-radius: 50px;
+  color:black;
+  padding: 10px 22px;
+  text-align: center;
+  
+  font-size: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family:arial;
+}
+button:hover{
+	background-color:white;
+}

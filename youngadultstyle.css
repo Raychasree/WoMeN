@@ -1,0 +1,387 @@
+h1{
+    font-family: red serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align:right;
+    color:darkgoldenrod;
+    position: relative;
+    top:100px;
+    margin-right: 100px;
+}
+h3{
+    color:white;
+    font-size:22px;
+    margin-left: 800px;
+    margin-top:30px;
+}
+h4{
+    color: white;
+    margin-left: 280px;
+    font-size: 16px;
+    margin-left: 750px;
+}
+h5{
+    color: orange;
+    font-size: 25px;
+    margin-left:600px;
+    margin-top:30px;
+}
+h6{
+    font-size: 40px;
+}
+.flex-container {
+  width:100%;
+  min-height: 100vh;
+  background-color:black;
+  height:5000px;
+}
+img{
+  background-position: center;
+  background-repeat: no-repeat;
+  height:450px;
+  width: 700px;
+  opacity: 0.4;
+  margin-left:-140px;
+  border-radius: 40px;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.navbar{
+    width:1200px;
+    height:75px;
+    margin: auto;
+}
+.icons{
+    width: 200px;
+    float: right;
+    height: 70px;
+}
+.logo{
+    color:gold;
+    font-size:35px;
+    font-family: Arial;
+    padding-right: 1px;
+    float: right;
+    padding-top: 7px;
+    font-family: red serif;
+    cursor:pointer;
+    letter-spacing: 1px;
+}
+span{
+    color:#f9004d;
+}
+.menu{
+    width: 400px;
+    float: 70px;
+    height: 70px;
+    margin-left:550px;
+}
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    color:orange;
+    font-family: arial;
+    font-weight: bold;
+    transition:0.4s ease-in-out;
+}
+ul li a:hover{
+    color: white;
+}
+span:hover{
+    color:white;
+}
+p{
+    color: white;
+    margin-left:750px;
+    margin-top:50px;
+    margin-right:50px;
+    /*font-weight: bold;*/
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 250px;
+    width: 250px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color:charcoal;
+    margin-top:-100px;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:hotpink ;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    margin-top:-30px;
+}
+.card1{
+    height:450px;
+    width:950px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color:charcoal;
+    background: #191919;
+}
+.card1 i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    padding-right:50px;
+}
+.card1 img{
+    display: block;
+    float: left;
+    margin: 25px 0px;
+    padding-right:50px;
+    margin-left: 10px;
+    margin-top: -270px;
+    height: 350px;
+    width: 400px;
+    opacity:0.9;
+    border-radius:50%;
+}
+.content-1{
+    width:100%;
+  min-height: 100vh;
+  background-color:black;
+    }
+button{
+    background-color:pink;
+    border-radius: 40px;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.heading{
+    margin-left: 400px;
+}
+.utube h3{
+    margin-left:280px;
+    color: #f9004d;
+}
+.utube p{
+    margin-left: 450px;
+    margin-top:30px;
+}
+.utube iframe{
+   margin-left: 450px;
+    margin-top:30px;
+}
+.per {
+    text-align: center;
+    color:#f9004d;
+    margin-top:50px;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card2{
+    height:420px;
+    width:420px;
+    padding:2px 2px;
+    background: #191919;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color:charcoal;
+    margin-top:30px;
+}
+.card3{
+    height:430px;
+    width:750px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius:20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color:charcoal;
+    margin-top:30px;
+}
+.card2 i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:grey;
+}
+.card2 h2 , .card3 h2{
+    color: orange;
+    font-size: 18px;
+    font-family:'poppins',sans-serif;
+}
+.card2 p {
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    text-align:center;
+}
+ .card3 p{
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: left;
+    margin-top:20px;
+ }
+ .card2:hover{
+    background-color:grey;
+ }
+.card2 p:hover{
+    color: black;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:400px;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card4{
+    height:700px;
+    width:1000px;
+    padding:0px 0px;
+    background: #191919;
+    border-radius:20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color:charcoal;
+    margin-top:50px;
+}
+.card4 p{
+    text-align:left;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left:50px;
+    margin-right: 50px;
+}
+.card4 h3{
+    font-size: 16px;
+    margin-left:30px;
+}
+.box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card5{
+    height:900px;
+    width:1000px;
+    padding:0px 0px;
+    background: #191919;
+    border-radius:20px;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    background-color:charcoal;
+    margin-top:50px;
+}
+.card5 p{
+    text-align:left;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left:50px;
+    margin-right: 50px;
+}
+.card5 h3{
+    font-size: 16px;
+    margin-left:30px;
+}
+.container{
+    width: 600px;
+    height: 200px;
+    border: 2px solid #f9004d;
+    padding: 15px 10px;
+    background-color: silver;
+    margin-left:470px;
+    border-radius:20px; }
+.container h2{
+    text-align: center;
+    margin-bottom: 15px}
+
+textarea{
+    height: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;}
+
+textarea:focus::-webkit-input-placeholder{
+    opacity: 0;}
+
+input[type="button"], button{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;}
+
+input[type="button"]{
+    color: #fff;
+    background-color: #f9004d;}
+
+button{
+    color: #333;
+    background-color: transparent}
+
+.btn{
+    display: none;
+    }
+.button1{
+    background-color: hotpink;
+    border-radius:20px;
+}
